@@ -1,0 +1,147 @@
+@import 'vars.scss';
+@import 'media.scss';
+@import 'fonts.scss';
+@import 'navbar.scss';
+@import 'footer.scss';
+
+body {
+
+	font-family: "vida31pro";
+	.background {
+		font-family: "Vida 33 Pro";
+		height: 232px;
+		background: {
+			image: url('../img/bg.png');
+			position: center;
+			size: cover;
+		}
+		.background-title {
+
+			margin-top: 115px;
+			h1 {
+				display:inline-block; 
+				width: auto;
+				background-color: #fff;
+				font-size: 48px;
+				font-family: "Vida 33 Pro";
+				color: #414141;
+				padding: 19px 40px 0px 20px;
+				margin: 0;
+			}
+			h3{
+				display:inline-block; 
+				background-color: #fff;
+				font-size: 18px;
+				color: rgb(119, 123, 128);
+				margin-bottom: -1px;
+				padding: 12px 20px;
+			}
+		}
+	}
+	.content {
+		margin-top: 60px;
+
+		.notice-list-wrap {
+			font-family: "Vida 31 Pro";
+
+			.notice-list {
+				padding-left: 20px !important;
+				list-style-type: none;
+				.notice-list-item {
+					margin-bottom: 40px;
+					a {
+
+						color: $purple;
+					}
+				}
+			}
+		}
+
+		.menu-dropdown {
+			font-size: 16px;
+			font-family: "Vida 31 Pro";
+			margin-bottom: 60px;
+			a {
+				color: rgb(83, 86, 90);
+				&:after {
+					
+				}
+			}
+
+			
+		}
+
+		.menu-links {
+
+			.link-title {
+				font-family: "Vida 33 Pro";
+				font-size: 24px;
+				color: $purple;
+			}
+			.link-disc {
+				font-family: "Vida 31 Pro";
+				font-size: 16px;
+				color: #000;
+			}
+			.link-goto {
+				text-align: left;
+				text-decoration: none;
+				font-family: "Vida 33 Pro";
+				font-size: 14px;
+				color: $purple;
+				position: relative;
+				&:after {
+					background: url('../img/expanded.svg') no-repeat;;
+					content: ' ';
+					padding: 15px;
+					position: absolute;
+					top: -6px;
+					left: 55px;
+				}
+				span {
+					display: inline-block;
+				}
+				img {
+					width: 20px;
+					display: inline-block;
+				}
+
+			}
+		}
+		.articles {
+			.article {
+				padding: 20px;
+				margin-bottom: 24px;
+				border: 1px solid #edeeee {
+					radius: 5px;
+				}
+				.iscollapse {
+					margin-top: 20px;
+				}
+				.article-title {
+					color: $title_grey;
+					font-size: 18px;
+					font-family: "Vida 33 Pro";
+				}
+				.article-btn {
+					width: 20px;
+
+				}
+
+				.card {
+					border: none !important;
+					padding: 0 !important;
+				}
+
+				.article-date {
+					background-color: #edeeee;
+					display: inline-block;
+					padding: 5px;
+					border-radius: 1px;
+					margin-bottom:20px;
+				}
+			}
+		}
+	}
+}
+

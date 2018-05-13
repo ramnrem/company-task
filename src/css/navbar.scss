@@ -1,0 +1,109 @@
+nav {
+	padding: {
+		top: 19.5px !important;
+		bottom: 19.5px !important;
+	}
+	.nav-btn {
+		border: none !important;
+		outline:none;
+
+		i {
+			color: $purple;
+			font-size: 20px;
+		}
+	}
+	.navbar-leftside {
+		.nav-link {
+			font-family: "vida31pro";
+			font-size: 14px;
+			color: $purple !important;
+		}
+	}
+
+	.nav-leftside-collapsed {
+		margin-bottom: 40%;
+	}
+
+	.navbar-rightside {
+		.dropdown {
+
+			font-family: "vida31pro";
+			font-size: 14px;
+			color: rgb(83, 86, 90);
+		}
+
+		.dropdown-untoggle {
+			padding: 3px 13px 3px 13px;
+			margin-top: 4px;
+			color: $purple !important;
+			i {
+				position: relative;
+				margin-right: 5px;
+				&:after {
+					content: '3';
+					color: #fff;
+					text-align: center;
+					line-height: 15px;
+					position: absolute;
+					background-color: $purple;
+					height: 16px;
+					width: 16px;
+					top: -10px;
+					left: 5px;
+					border-radius: 50%;
+				}
+			}
+			.after-none::after {
+				display: none;
+			}	
+		}
+
+		.global-title {
+			font-family: "vida33pro";
+			font-size: 18px;
+			color: rgb(86, 95, 102);
+			line-height: 1.111;
+		}
+
+		.pulse-button {
+			height: 36px;
+			width: 36px;
+			font-size: 25px;
+			text-align: center;
+			color: white;
+			border: none;
+			border-radius: 50%;
+			background: #893b67;
+			cursor: pointer;
+			box-shadow: 0 0 0 0 rgba(#893b67, .5);
+			animation: pulse 1.5s infinite;
+			display: block
+		}
+		.pulse-button:hover {
+		transform: scale(.9);
+		}
+
+		@keyframes pulse {
+			0% {
+				transform: scale(.9);
+			}
+			70% {
+				transform: scale(1);
+				box-shadow: 0 0 0 10px rgba(#5a99d4, 0);
+			}
+			100% {
+				transform: scale(.9);
+				box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
+			}
+		}
+
+	}
+}
+
+.dropdown-br {
+	border: 1px solid black {
+		radius: 30px;
+		color: rgba(83, 86, 90, .2);
+	}
+
+}

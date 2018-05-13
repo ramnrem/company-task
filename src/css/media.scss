@@ -1,0 +1,36 @@
+@media (min-width: 1440px){
+	.container {
+		max-width: 1440px !important;
+	}
+}
+
+@media (max-width: 1200px){
+	.menu-dropdown {
+		margin-bottom: 30px !important;
+	}
+}
+
+@media (max-width: 992px){
+	.background-title {
+		h3 {
+			font-size: 17px !important;
+		}
+		h1 {
+			font-size: 40px !important;
+			padding: 19px 40px 8px 20px !important;
+		}
+	}
+}
+
+@media (max-width: 768px){
+	.background-title {
+		h3 {
+			font-size: 15px !important;
+		}
+		h1 {
+			font-size: 35px !important;
+			padding: 19px 40px 15px 20px !important;
+		}
+	}
+}
+

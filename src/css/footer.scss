@@ -1,0 +1,96 @@
+footer {
+	.prefooter {
+		font-family: "vida31pro";
+		background-color: #edeeee;
+	}
+	.mini-article {
+		padding: 30px 15px;
+		a {
+			text-decoration: none;
+		}
+		p {
+			margin: 10px 0px 0px 0px;
+		}
+		.mini-article-date {
+			color: rgba(0, 0, 0, 0.4);
+			font-size: 14px;
+		}
+		.mini-article-cat {
+			text-transform: uppercase;
+			font-size: 10px;
+			color: #000;
+			background-color: #fff;
+			padding: 4px;
+			border-radius: 1px;
+		}
+	}
+	.footer {
+		padding-top: 40px;
+		.contacts{
+			margin-bottom: 40px;
+		
+			.social {
+				color: $purple;
+				font-size: 18px;
+				margin-bottom: 40px;
+
+				i {
+					margin-left: 21px;
+					&:first-child{
+						margin-left: 0;
+					}
+				}
+			}
+
+			h1 {
+				font-size: 24px;
+				font-family: "Vida 33 Pro";
+				color: rgb(66, 66, 66);
+			}
+
+			span {
+				font-size: 14px;
+				color: rgb(66, 66, 66);
+			}
+
+			a {
+				color: $purple;
+				text-decoration: none;
+			}
+		}
+		.sections {
+			.dropdown-f{
+				font-size: 14px;
+				font-family: "Vida 33 Pro";
+				color: rgb(0, 0, 0);
+				padding: 0;
+				margin-bottom: 20px;
+
+				border-bottom: 1px solid #edeeee;
+
+				.caret-display-none {
+					display: none;
+				}
+			}
+			.section-list {
+				list-style: none;
+				padding-left: 0; 
+				.section-list-item{
+					margin-bottom: 10px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+					a {
+						text-decoration: none;
+						color: $purple;
+						size: 14px;
+
+					}
+				}
+					
+			}
+		}
+		
+
+	}
+}
